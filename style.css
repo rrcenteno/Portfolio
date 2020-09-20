@@ -1,0 +1,569 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/*My Code*/
+/*Home*/
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+nav {
+    width: 100%;
+    height: 75px;
+    background-color: rgb(66, 66, 66);
+}
+
+
+.wrapper_menu {
+  margin: 0 auto;
+  width: 1000px;
+  color: black;
+}
+
+.wrapper_home{
+  position: absolute;
+  width: 100%;
+  height: 1000px;
+}
+
+#img_pbk{
+  height: 100%;
+  width: 100%;
+  background-image: url(img/pbk2.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+
+ul{
+  text-align: right;
+  margin: 0;
+}
+
+ul li {
+  color:black;
+  list-style: none;
+  display: inline-block;
+  float: center;
+  line-height: 100px;
+
+}
+#Author{
+  position: absolute;
+  left: 40px;
+  font-family: 'Bree Serif', serif;
+  padding-right: 50px;
+  font-size: 30px;
+  margin: 0;
+  color: rgb(221,221,221);
+}
+ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Bree Serif', serif;
+  padding: 0px 20px;
+  color: rgb(221,221,221)
+}
+
+#student{
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  height: 35px;
+}
+
+#desc{
+  font-family: 'Bree Serif', serif;
+  font-size: 25px;
+  color: rgb(221,221,221);
+  font-style: italic;
+}
+
+#bio{
+  position: absolute;
+  top: 45px;
+  left: 30px;
+  height: 100%;
+}
+
+#info{
+  position: absolute;
+  text-align: justify;
+  top: 25px;
+  width: 590px;
+  font-family: 'Oswald', serif;
+  font-size: 22px;
+  color: rgb(221,221,221);
+  font-style: bold;
+  line-height: 30px;
+}
+
+#goal{
+  position: absolute;
+  text-align: justify;
+  top: 150px;
+  width: 590px;
+  font-family: 'Oswald', serif;
+  font-size: 22px;
+  color: rgb(221,221,221);
+  font-style: bold;
+  line-height: 30px;
+}
+
+
+#backstory{
+  position: absolute;
+  text-align: justify;
+  top: 300px;
+  width: 590px;
+  font-family: 'Oswald', serif;
+  font-size: 22px;
+  color: rgb(221,221,221);
+  font-style: bold;
+  line-height: 30px;
+  left: 30px;
+}
+
+/*Projects Page*/
+
+
+.Title{
+    position: absolute;
+    height: 35px;
+    top: 75px;
+    width: 100%;
+    background-color: rgb(221,221,221);
+    box-shadow: 0px 10px 10px rgba(51, 51, 51, 0.5);
+}
+
+#projects{
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(66,66,66);
+}
+
+
+.block{
+  position: absolute;
+  top: 106px;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+.img_bkg{
+  margin-top: 20px;
+  height: auto;
+  min-height: 190%;
+  background-image: url(img/pbk2.jpg);
+  background-size: 200%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.wrapper_project1{
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  height: 300px;
+  background-color: rgb(66,66,66);
+  box-shadow: 0px 10px 10px rgba(51, 51, 51, 0.5);
+  border-radius: 15px;
+}
+
+.wrapper_project2{
+  position: absolute;
+  top: 500px;
+  width: 100%;
+  height: 300px;
+  background-color: rgb(66,66,66);
+  box-shadow: 0px 10px 10px rgba(51, 51, 51, 0.5);
+  border-radius: 15px;
+}
+
+#title1{
+  font-family: 'Bree Serif', serif;
+  position: absolute;
+  top: 70px;
+  margin-left: 10px;
+  color: rgb(221,221,221);
+}
+
+
+#title2{
+  font-family: 'Bree Serif', serif;
+  position: absolute;
+  top: 470px;
+  margin-left: 10px;
+  color:  rgb(221,221,221);
+}
+
+#title3{
+  font-family: 'Bree Serif', serif;
+  position: absolute;
+  top: 870;
+  margin-left: 10px;
+  color: rgb(221,221,221);
+}
+
+.wrapper_project3{
+  position: absolute;
+  top: 900px;
+  width: 100%;
+  height: 300px;
+  background-color: rgb(66,66,66);
+  box-shadow: 0px 10px 10px rgba(51, 51, 51, 0.5);
+  border-radius: 15px;
+  margin-bottom: 100px;
+}
+
+#uni1{
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  width: 25%;
+  height: 90%;
+  background-image: url(img/transformer.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#uni1:hover{
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  width: 25%;
+  height: 90%;
+  background-image: url(img/jeep.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+#uni2{
+  position: absolute;
+  left: 350px;
+  top: 15px;
+  width: 30%;
+  height: 90%;
+  background-image: url(img/brush_full.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#uni2:hover{
+  position: absolute;
+  left: 350px;
+  top: 15px;
+  width: 30%;
+  height: 90%;
+  background-image: url(img/brush.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#uni3{
+  position: absolute;
+  left: 660px;
+  top: 15px;
+  width: 30%;
+  height: 90%;
+  background-image: url(img/fridge.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#uni3:hover{
+  position: absolute;
+  left: 670px;
+  top: 15px;
+  width: 30%;
+  height: 90%;
+  background-image: url(img/fridge_system.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#uni4{
+  position: absolute;
+  left: 1000px;
+  top: 15px;
+  width: 30%;
+  height: 90%;
+  background-image: url(img/Iso-trailer.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#uni4:hover{
+  position: absolute;
+  left: 1000px;
+  top: 15px;
+  width: 30%;
+  height: 90%;
+  background-image: url(img/mech-trailer.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#baja1{
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  width: 25%;
+  height: 90%;
+  background-image: url(img/mount.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#baja1:hover{
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  width: 25%;
+  height: 90%;
+  background-image: url(img/mount_v.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+#baja2{
+  position: absolute;
+  left: 350px;
+  top: 15px;
+  width: 30%;
+  height: 90%;
+  background-image: url(img/wheel_design.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#baja2:hover{
+  position: absolute;
+  left: 350px;
+  top: 15px;
+  width: 30%;
+  height: 90%;
+  background-image: url(img/wheel_simulation.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#week{
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  width: 30%;
+  height: 90%;
+  background-image: url(img/week1.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#week:hover{
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  width: 30%;
+  height: 90%;
+  background-image: url(img/week2.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#week:hover .tooltiptext{
+  visibility: visible;
+  position: relative;
+  left: 5px;
+  top: 30px;
+  width: 50%;
+  height: 10px;
+}
+
+.tooltiptext{
+  visibility: hidden;
+  font-family: 'Bree Serif', serif;
+  color: rgb(221,221,221);
+  background-color: rgb(66,66,66)
+  }
+
+/*Contacts Page */
+
+.contacts_body{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(66,66,66);
+}
+
+#contact_info{
+  position: absolute;
+  left: 500px;
+  height: 250px;
+  top: 270px;
+  background-color: rgb(221,221,221);
+  width: 550px;
+  border-radius: 10px;
+  box-shadow: 5px 10px 10px rgba(121,121,121, 0.5);
+}
+
+p{
+  font-family: 'Bree Serif', serif;
+  color: rgb(66,66,66);
+  padding-left: 10px;
+}
+
+#cont_title{
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+}
+
+#email{
+  position: relative;
+  text-align: left;
+  top: 20px;
+  font-size: 20px;
+  float: center;
+}
+
+#upr{
+  position: absolute;
+  text-align: center;
+  left: 50px;
+  font-size: 20px;
+  float: center;
+  padding-left: 98px;
+}
+
+#linkedin{
+  position: relative;
+  text-align: left;
+  top: 40px;
+  font-size: 20px;
+  float: center;
+  text-decoration: none;
+}
+
+#link{
+  text-decoration: underline;
+  font-size: 20px;
+  color: rgb(66,66,66);
+}
